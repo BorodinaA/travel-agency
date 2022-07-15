@@ -1,0 +1,108 @@
+.about-us {
+    background: url(../img/background-contact-us.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.about-us__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 50px;
+}
+
+.about-us__wrapper {
+    background-color: var(--background-about-us);
+    color: var(--about-us);
+    max-width: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 30px 10px;
+    width: 100%;
+}
+
+.about-us__details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-us__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    ;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.about-us__text {
+    color: var(--about-us-text);
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.about-us__item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+}
+
+
+.address__img,
+.phone__img,
+.email__img {
+    width: 48px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.address__title,
+.phone__title,
+.email__title,
+.social__title {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--about-us-text);
+    margin-bottom: 10px;
+}
+
+.about-us__social {
+    margin-top: 5px;
+}
+
+.social__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+    width: 158px;
+    margin-bottom: 20px;
+}
+
+.social__link {
+    height: 32px;
+}
+
+.social__img {
+    height: 32px;
+}
+
+.about-us__image-from {
+    display: block;
+    font-style: normal;
+    text-align: left;
+}
+
+.about-us__image-from>.image-from__link {
+    color: var(--benefits);
+}
+
+.about-us__image-from:hover>.image-from__link {
+    color: var(--benefits-text-hover);
+    text-shadow: 0 0px 20px var(--benefits-text-hover);
+}

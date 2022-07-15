@@ -1,7 +1,3 @@
-.common-block {
-    
-}
-
 .common-block__description {
     display: flex;
     flex-direction: column;
@@ -35,10 +31,9 @@
 
 .common-nav__wrapper {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 30px;
-    
 }
 
 .common-nav__item {
@@ -105,8 +100,6 @@
 }
 
 @media (min-width: 717px) {
-
-
     .common-nav__item:first-child {
         margin-right: 30px;
     }

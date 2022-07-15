@@ -1,0 +1,46 @@
+.form-us {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-us__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.form-us__text {
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__input-email {
+    min-width: 275px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: none;
+}
+
+.form__input-submit {
+    text-transform: uppercase;
+    border: 2px solid var(--border-form-us);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--background-color);
+    padding: 10px 30px;
+}
+
+.form__input-submit:hover {
+    background-color: var(--background-btn-opacity);
+}

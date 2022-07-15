@@ -13,7 +13,7 @@
     background-color: var(--background-color);
     --text-color: rgb(17, 17, 17);
     --text-color-hover: rgb(17, 17, 17);
-    --text-common-nav:rgb(128, 128, 128);
+    --text-common-nav: rgb(128, 128, 128);
     --text-common-block: rgb(255, 255, 255);
     --benefits: rgb(255, 255, 255);
     --benefits-hover: rgb(165, 177, 84);
@@ -23,10 +23,16 @@
     --bg-common-nav__photo: #a5b154;
     --border-color: rgb(217, 217, 217);
     --box-shadow: rgba(0, 0, 0, 0.3);
+    --text-shadow-white: rgba(255, 255, 255, 0.3);
     --text-shadow: rgb(0, 0, 0);
-    --benefits-btn: rgb(255,255,255);
+    --benefits-btn: rgb(255, 255, 255);
     --benefits-btn-hover: rgb(230, 230, 230);
-
+    --benefits-text-hover: #e6e6e6;
+    --background-about-us: rgb(0, 0, 0);
+    --about-us: rgb(255, 255, 255);
+    --about-us-text: rgb(153, 153, 153);
+    --border-form-us: rgb(0, 0, 0);
+    --background-btn-opacity: rgba(0, 0, 0, 0.3);
 }
 
 img {

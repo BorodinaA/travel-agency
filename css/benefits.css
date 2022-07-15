@@ -4,8 +4,7 @@
     color: var(--benefits);
     min-height: 713px;
     display: flex;
-
-
+    text-shadow: 0 0px 20px var(--text-shadow);
 }
 
 .benefits__title {
@@ -27,9 +26,10 @@
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    border: 2px solid var(--benefits__btn);
+    border: 2px solid var(--benefits-btn);
     color: var(--benefits);
     padding: 10px 30px;
+    text-shadow: none;
 }
 
 .benefits__btn:hover {
@@ -38,6 +38,16 @@
     background-color: var(--benefits-btn);
 }
 
- .image-from .benefits {
+.benefits__image-from {
+    display: block;
+    font-style: normal;
     text-align: left;
+}
+
+.benefits__image-from>.image-from__link {
+    color: var(--benefits);
+}
+
+.benefits__image-from:hover>.image-from__link {
+    color: var(--benefits-text-hover);
 }
