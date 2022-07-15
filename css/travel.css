@@ -10,6 +10,12 @@
     text-align: right;
 }
 
+.travel_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .travel__subtitle {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
