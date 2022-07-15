@@ -1,0 +1,16 @@
+.header {
+
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 115px;
+}
+
+.logo__img {
+    width: 64px;
+    height: 32px;
+}
+

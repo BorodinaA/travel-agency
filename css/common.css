@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&family=Oswald:wght@400;700;900&family=Titillium+Web:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    --text-color: rgb(17, 17, 17);
+    --text-color-hover: rgb(17, 17, 17);
+    --text-common-nav:rgb(128, 128, 128);
+    --text-common-block: rgb(255, 255, 255);
+    --benefits: rgb(255, 255, 255);
+    --benefits-hover: rgb(165, 177, 84);
+    --background-color: rgb(255, 255, 255);
+    --background-btn: rgb(0, 0, 0);
+    --background-common-nav: rgb(224, 229, 235);
+    --bg-common-nav__photo: #a5b154;
+    --border-color: rgb(217, 217, 217);
+    --box-shadow: rgba(0, 0, 0, 0.3);
+    --text-shadow: rgb(0, 0, 0);
+    --benefits-btn: rgb(255,255,255);
+    --benefits-btn-hover: rgb(230, 230, 230);
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    cursor: pointer;
+}

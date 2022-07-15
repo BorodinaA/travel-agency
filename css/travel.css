@@ -1,0 +1,59 @@
+.travel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.travel_right {
+    text-align: right;
+}
+
+.travel__subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.travel__text {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.travel__photo {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+
+}
+
+.travel__img {
+    text-align: left;
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+}
+
+.travel__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+@media (min-width: 800px) {
+    .travel__picture {
+
+    }
+
+    .slide-photo {
+        width: 360px;
+        height: 591px;
+    }
+}

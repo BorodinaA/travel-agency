@@ -1,0 +1,129 @@
+.common-block {
+    
+}
+
+.common-block__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 555px;
+    background: url(../img/background-feaches.jpg) no-repeat center;
+    background-size: cover;
+    color: var(--text-common-block);
+}
+
+.common-block__title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.common-block__subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    margin: 20px 50px 0 50px;
+    text-align: center;
+    text-shadow: 0 0px 20px var(--text-shadow);
+}
+
+.common-nav {
+    background-color: var(--background-common-nav);
+}
+
+.common-nav__wrapper {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+
+.common-nav__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+    border: 1px solid var(--border-color);
+    background-color: var(--background-color);
+    max-width: 300px;
+    min-width: 150px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.common-nav__item:hover {
+    box-shadow: 0 0px 20px var(--box-shadow);
+    z-index: 9;
+}
+
+.common-nav__photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 89px;
+    height: 89px;
+    border-radius: 50%;
+    background-color: var(--bg-common-nav__photo);
+    margin-bottom: 25px;
+}
+
+.common-nav__img {
+    width: 51px;
+    height: 51px;
+}
+
+.common-nav__title {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.common-nav__text {
+    color: var(--text-common-nav);
+    font-style: italic;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.image-from {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.image-from__link {
+    text-decoration: underline;
+}
+
+@media (min-width: 717px) {
+
+
+    .common-nav__item:first-child {
+        margin-right: 30px;
+    }
+
+}
+
+@media (min-width: 1030px) {
+    .common-nav__wrapper {
+        padding-bottom: 30px;
+    }
+
+    .common-nav__item {
+        margin-right: 25px;
+        margin-bottom: 0;
+    }
+
+    .common-nav__item:last-child {
+        margin: 0;
+    }
+}

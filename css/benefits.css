@@ -1,0 +1,43 @@
+.benefits {
+    background: url(../img/background-forest.jpg) no-repeat center;
+    background-size: cover;
+    color: var(--benefits);
+    min-height: 713px;
+    display: flex;
+
+
+}
+
+.benefits__title {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.benefits__text {
+    font-size: 18px;
+    line-height: 29px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.benefits__btn {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid var(--benefits__btn);
+    color: var(--benefits);
+    padding: 10px 30px;
+}
+
+.benefits__btn:hover {
+    border: 2px solid var(--benefits-btn-hover);
+    color: var(--benefits-hover);
+    background-color: var(--benefits-btn);
+}
+
+ .image-from .benefits {
+    text-align: left;
+}
