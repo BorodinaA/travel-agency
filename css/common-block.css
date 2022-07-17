@@ -1,24 +1,24 @@
 .common-block__description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    min-height: 555px;
     background: url(../img/background-feaches.jpg) no-repeat center;
     background-size: cover;
     color: var(--text-common-block);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 555px;
 }
 
 .common-block__title {
-    text-transform: uppercase;
-    font-weight: 400;
     font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .common-block__subtitle {
     font-family: 'Oswald', sans-serif;
-    font-weight: 700;
     font-size: 48px;
+    font-weight: 700;
     line-height: 1;
     margin: 20px 50px 0 50px;
     text-align: center;
@@ -31,72 +31,29 @@
 
 .common-nav__wrapper {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     padding-top: 30px;
 }
 
 .common-nav__item {
+    align-items: center;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 30px 20px;
-    border: 1px solid var(--border-color);
-    background-color: var(--background-color);
+    margin-bottom: 30px;
     max-width: 300px;
     min-width: 150px;
-    margin-bottom: 30px;
-    cursor: pointer;
+    padding: 30px 20px;
+    text-align: center;  
 }
 
 .common-nav__item:hover {
     box-shadow: 0 0px 20px var(--box-shadow);
     z-index: 9;
-}
-
-.common-nav__photo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 89px;
-    height: 89px;
-    border-radius: 50%;
-    background-color: var(--bg-common-nav__photo);
-    margin-bottom: 25px;
-}
-
-.common-nav__img {
-    width: 51px;
-    height: 51px;
-}
-
-.common-nav__title {
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 700;
-    line-height: 1;
-    font-size: 24px;
-    margin-bottom: 18px;
-}
-
-.common-nav__text {
-    color: var(--text-common-nav);
-    font-style: italic;
-    font-size: 16px;
-    line-height: 26px;
-}
-
-.image-from {
-    display: flex;
-    justify-content: center;
-    font-style: italic;
-    font-size: 16px;
-    padding-bottom: 50px;
-}
-
-.image-from__link {
-    text-decoration: underline;
 }
 
 @media (min-width: 717px) {
@@ -112,11 +69,54 @@
     }
 
     .common-nav__item {
-        margin-right: 25px;
         margin-bottom: 0;
+        margin-right: 25px;
     }
 
     .common-nav__item:last-child {
         margin: 0;
     }
+}
+
+.common-nav__photo {
+    align-items: center;
+    background-color: var(--bg-common-nav__photo);
+    border-radius: 50%;
+    display: flex;
+    height: 89px;
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 89px;
+}
+
+.common-nav__img {
+    height: 51px;
+    width: 51px;
+}
+
+.common-nav__title {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+.common-nav__text {
+    color: var(--text-common-nav);
+    font-style: italic;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.image-from {
+    display: flex;
+    font-size: 16px;
+    font-style: italic;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.image-from__link {
+    text-decoration: underline;
 }

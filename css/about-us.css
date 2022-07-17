@@ -4,22 +4,22 @@
 }
 
 .about-us__container {
-    width: 100%;
-    max-width: 1200px;
     margin: auto;
+    max-width: 1200px;
     padding: 50px 50px;
+    width: 100%;
 }
 
 .about-us__wrapper {
+    align-items: center;
     background-color: var(--background-about-us);
     color: var(--about-us);
-    max-width: 345px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
+    max-width: 345px;
     padding: 30px 10px;
+    text-align: center;
     width: 100%;
 }
 
@@ -32,7 +32,6 @@
 .about-us__title {
     font-family: 'Oswald', sans-serif;
     font-size: 24px;
-    ;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -44,31 +43,30 @@
 }
 
 .about-us__item {
+    align-items: center;
     display: flex;
     flex-direction: column;
     padding: 15px;
-    align-items: center;
 }
-
 
 .address__img,
 .phone__img,
 .email__img {
-    width: 48px;
     height: auto;
     margin-bottom: 10px;
+    width: 48px;
 }
 
 .address__title,
 .phone__title,
 .email__title,
 .social__title {
+    color: var(--about-us-text);
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    text-align: center;
-    color: var(--about-us-text);
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .about-us__social {
@@ -76,12 +74,12 @@
 }
 
 .social__list {
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+    display: flex;
     height: 32px;
-    width: 158px;
+    justify-content: space-between;
     margin-bottom: 20px;
+    width: 158px;
 }
 
 .social__link {

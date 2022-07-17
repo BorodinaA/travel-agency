@@ -1,11 +1,15 @@
 .header__wrapper {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     min-height: 115px;
 }
 
+.header__logo {
+    z-index: 10;
+}
+
 .logo__img {
-    width: 64px;
     height: 32px;
+    width: 64px;
 }
